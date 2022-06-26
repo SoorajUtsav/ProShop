@@ -5,3 +5,7 @@ main {
 .mr-4 {
   margin-right: 0.3rem;
 }
+
+.bolder {
+  font-weight: 900;
+}

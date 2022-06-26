@@ -27,7 +27,7 @@ const products = [
   },
   {
     _id: "3",
-    name: "Cannon EOS M50",
+    name: "Cannon EOS M50 DSLR Camera",
     image: "/images/camera.jpg",
     description:
       "Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design",
@@ -40,7 +40,7 @@ const products = [
   },
   {
     _id: "4",
-    name: "Sony Playstation 5  White Version",
+    name: "Sony Playstation 5 ",
     image: "/images/playstation.jpg",
     description:
       "The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music",
