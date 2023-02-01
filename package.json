@@ -1,0 +1,15 @@
+{
+  "name": "ProShop",
+  "version": "1.0.0",
+  "description": "MERN shopping App",
+  "main": "index.js",
+  "repository": "https://github.com/SoorajUtsav/ProShop.git",
+  "author": "SoorajUtsav",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node backend/server"
+  }
+}
