@@ -8,14 +8,19 @@
   "author": "SoorajUtsav",
   "license": "MIT",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
     "dotenv": "^16.0.3",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0"
   },
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
     "client": "yarn --cwd frontend start",
-    "dev": "concurrently \"yarn server\" \"yarn client\""
+    "dev": "concurrently \"yarn server\" \"yarn client\"",
+    "data:import": "node backend/seeder",
+    "data:destroy": "node backend/seeder -d"
   },
   "devDependencies": {
     "concurrently": "^7.6.0",
